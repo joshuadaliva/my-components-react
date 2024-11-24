@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* dark mode color:
+    body background : Of172a or bg-slate-900
+    container : bg-slate-800
+    main text : text-white
+    sub text : text-slate-400
+
+
+/* Light Mode Colors:
+
+    Background Colors:
+        bg-white (default background color)
+        bg-gray-50 (light gray background)
+        bg-gray-100 (light gray background for borders or containers/ dashboard right white bg)
+
+    Text Colors:
+        text-gray-900 (dark text for good contrast on light backgrounds)
+        text-gray-800 (darker text for less contrast)
+        text-gray-600 (medium gray text)
+
+        outline colors for container
+        border-gray-300
+
+*/
+@layer components{
+    .btn-primary{
+        @apply bg-blue-500 text-white hover:bg-blue-600 rounded-lg shadow-md py-2 px-4;
+    }
+    .btn-secondary{
+        @apply bg-gray-200 text-gray-800 hover:bg-gray-300 rounded-lg shadow-md py-2 px-4;
+    }
+    .btn-desctructive{
+        @apply bg-red-600 text-white hover:bg-red-700 rounded-lg shadow-md py-2 px-4;
+    }
+    .btn-outline{
+        @apply border-[1px] border-gray-300 text-gray-300 hover:bg-gray-100 hover:text-gray-800 rounded-lg shadow-md py-2 px-4;
+    }
+    .btn-ghost{
+        @apply text-gray-800 hover:bg-gray-100 rounded-lg shadow-md py-2 px-4;
+    }
+    .btn-link{
+        @apply text-blue-500 hover:underline rounded-lg shadow-md py-2 px-4;
+    }
+    .btn-success{
+        @apply bg-green-600 text-white hover:bg-green-700 rounded-lg shadow-md py-2 px-4;
+    }
+    .btn-warning{
+        @apply bg-yellow-500 text-white hover:bg-yellow-600 rounded-lg shadow-md py-2 px-4;
+    }
+}
+
+@font-face {
+    font-family: 'MyFont'; /* Custom font name */
+    src: url('./assets/fonts/Poppins-Bold.ttf') format('ttf');
+    font-weight: normal; /* Adjust based on font weight */
+    font-style: normal;  /* Adjust based on font style */
+  }
