@@ -11,7 +11,7 @@ const Header = () => {
     }
 
   return (
-    <header className="fixed top-0 left-0 md:left-64 right-0 p-4 md:p-2 border-b-[1px] dark:bg-slate-800 bg-white  shadow-sm dark:border-none flex md:justify-between items-center">
+    <header className="fixed top-0 left-0 md:left-64 right-0 p-4 md:p-2 border-b-[1px] dark:bg-gray-700 bg-white  shadow-sm dark:border-none flex md:justify-between items-center">
       {dark ? <Menu className="cursor-pointer md:hidden" color="white"/> : <Menu className="cursor-pointer md:hidden" />}
       <h1 className=" text-lg ml-3 font-myfont dark:text-white">Dashboard</h1>
       <div className="hidden md:flex gap-4 items-center">

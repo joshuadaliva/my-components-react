@@ -7,7 +7,7 @@ import Buttons from './components/Buttons'
 import Sonnet from './components/Sonnet'
 import DarkMode from './components/DarkMode'
 import Dashboard from './Dashboard/Dashboard'
-// import Dashboard from './components/Dashboard2'
+import Main from './Dashboard/Main.jsx'
 
 
 const App = () => {
@@ -23,8 +23,8 @@ const App = () => {
     //   {/* <DarkMode /> */}
     // </div>
     <div>
-      <Dashboard />
-      {/* <Dashboard /> */}
+      {/*<Dashboard />*/}
+    <Main />
     </div>
   )
 }

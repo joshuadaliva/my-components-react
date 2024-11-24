@@ -6,7 +6,7 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen flex">
       <Sidebar />
-      <div className="min-h-screen w-full bg-slate-100 dark:bg-slate-700 md:ml-64 pt-20">
+      <div className="min-h-screen w-full bg-slate-100 dark:bg-gray-800 md:ml-64 pt-20">
         <Header />
         <div className="flex justify-end mx-10 cursor-pointer">
           <div className="flex ring-1 bg-white ring-black/20 p-1 items-center gap-2 rounded-md px-4">
